@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b Final Project: Freestyle Rhyme Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="final_about.html">About This Project</a></li>
+            <li><a href="final_main.html" class="active">Rhyme Generator</a></li>
+            
+        </ul>
+    </nav>
+    <header>
+        <h1>🔥Rhyme Generator🔥</h1>
+    </header>
+    <main>
+        <section>
+            <h2>
+                <span id="verse1"></span>
+            </h2>
+            <h2>
+                <span id="verse2"></span>
+            </h2>
+            <h2>
+                <span id="verse3"></span>
+            </h2>
+            <h2>
+                <span id="verse4"></span>
+            </h2>
+            <button type="button" class="block" id="button1">Create Scheme</button>
+        </section>
+        <hr>
+        <section>
+            <h2>Formatting Controls</h2>
+            <p>
+                Rhyme Pattern: 
+                <select id="sortBy1">
+                    <option value="standard">Standard</option>
+                    <option value="triplet">Triplet</option>
+                    
+                </select>
+            </p>
+            <p>
+                Rhymes on: 
+                <select id="sortBy2">
+                    <option value="end">End of stanza</option>
+                    <option value="beginningAndEnd">Beginning and End of stanza</option>
+                </select>
+            </p>
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Xander Weibel | CSE 121b
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/final.js"></script>
+</body>
+
+</html>
